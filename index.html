@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title class="img-fluid">Sanjaya Koju</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="script" href="js/bootstrap.js">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Elements Reference</title>
+    <link rel="icon" href="image/sk.jpg" style="width: 100%; height: 100%"
+          type="image/x-icon">
+</head>
+<body>
+<nav class="topnav" id="myTopnav">
+    <div class="logo">Sanjaya</div>
+    <!--    <ul>-->
+    <!--        <li><a href="#home">Home</a></li>-->
+    <!--        <li><a href="#experience">Experience</a></li>-->
+    <!--        <li><a href="#gallery">Gallery</a></li>-->
+    <!--        <li><a href="#about">About</a></li>-->
+    <!--        <li><a href="#contact">Contact</a></li>-->
+    <!--    </ul>-->
+
+    <a class="home active" href="#home">Home</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</nav>
+<div class="text-decoration-line-through"></div>
+<div class="home" id="home">
+    <img class="wallpaper" src="image/home/wallaper6.jpg" height="100%" width="100%">
+    <div class="homeTxt">
+        <h3></h3>
+    </div>
+
+</div>
+<div class="container">
+
+    <div class="experience" id="experience">
+        <h3>Experience</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="bim">
+                    <ul>
+                        <li><i class='fa fa-briefcase' style='color: #0eb34d'></i></li>
+                        <li><strong>Associate Software Engineer</strong></li>
+                        <li><Strong>Cedar Gate Technology Formerly known as Deerwalk Sevices</Strong></li>
+                        <li><strong>March 1, 2021 - April 15, 2022</strong></li>
+                        <li><p>Sifal, Kathmandu</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="hseb">
+                    <ul>
+                        <li style="none"><i class='fa fa-briefcase' style='color: #0eb34d'></i></li>
+                        <li><strong>Fullstack JAVA Developer</strong></li>
+                        <li><Strong>SB Solutions Nepal</Strong></li>
+                        <li><strong>November, 2020 - February, 2021</strong></li>
+                        <li><p>Dillibazar, Kathmandu</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="slc">
+                    <ul>
+                        <li><i class='fa fa-briefcase' style='color: #0eb34d'></i></li>
+                        <li><strong>Junior JAVA Developer</strong></li>
+                        <li><Strong>IT Bridge Nepal Pvt Ltd</Strong></li>
+                        <li><strong>June, 2019 - Sep, 2019</strong></li>
+                        <li><p>Koteswor, Kathmandu</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="education" id="education">
+        <h3>Education</h3>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="mscs">
+                    <ul>
+                        <li><i class="fa fa-graduation-cap"></i></li>
+                        <li><strong>Master's in Computer Science (MSCS)</strong></li>
+                        <li><Strong>2022 - 2024</Strong></li>
+                        <li><strong>Maharishi International University</strong></li>
+                        <li><p>Fairfield Iowa, United States of America</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="bim">
+                    <ul>
+                        <li><i class="fa fa-graduation-cap"></i></li>
+                        <li><strong>Bachelor Of Information Management (BIM)</strong></li>
+                        <li><Strong>2015 - 2019</Strong></li>
+                        <li><strong>Orchid International College</strong></li>
+                        <li><p>Bijay Chowk, Gaushala-10 Kathmandu, Nepal</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="hseb">
+                   <ul>
+                       <li><i class="fa fa-graduation-cap"></i></li>
+                       <li><strong>+2 In Management (HSEB)</strong></li>
+                       <li><strong>2012 - 2014</strong></li>
+                       <li><strong>Prabhat English Higher Seconday School</strong></li>
+                       <li><p>Byasi-04 Bhaktapur, Nepal</p></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="slc">
+                   <ul>
+                       <li><i class="fa fa-graduation-cap"></i></li>
+                       <li><strong>SLC</strong></li>
+                       <li><strong>2001 - 2011</strong></li>
+                       <li><strong>Bagiswori Higher Secondary School</strong></li>
+                       <li><p>Chyamhasingh-09 Bhaktapur, Nepal</p></li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+        <h3>Gallery</h3>
+
+        <div class="row">
+            <div class="column">
+                <img src="image/IMG_20210413_133724_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_20210413_134255_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_20210413_143223_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_20210413_132354_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/gallery/IMG_20210413_131757_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/gallery/IMG_20210413_131936_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/gallery/IMG_20210413_131958_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/gallery/IMG_20210413_132005_Bokeh.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal responsive">
+
+            <div class="modal-content responsive" id="myModalContent">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="mySlides">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="image/IMG_20210413_133724_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="image/IMG_20210413_134255_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="image/IMG_20210413_143223_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="image/IMG_20210413_132354_Bokeh.jpg" style="width:100%;">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="image/gallery/IMG_20210413_131757_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="image/gallery/IMG_20210413_131936_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="image/gallery/IMG_20210413_131958_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="image/gallery/IMG_20210413_132005_Bokeh.jpg" style="width:100%;">
+                </div>
+
+                <a class="prev" id="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" id="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!--                <div  class="caption-container">-->
+<!--                    <p id="caption"></p>-->
+<!--                </div>-->
+
+
+<!--               <div class="modal-image">-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/IMG_20210413_133724_Bokeh.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/IMG_20210413_134255_Bokeh.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/IMG_20210413_143223_Bokeh.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/IMG_20210413_132354_Bokeh.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/gallery/IMG_20210413_131757_Bokeh.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/gallery/IMG_20210413_131936_Bokeh.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/gallery/IMG_20210413_131958_Bokeh.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">-->
+<!--                   </div>-->
+<!--                   <div class="column">-->
+<!--                       <img class="demo cursor" src="image/gallery/IMG_20210413_132005_Bokeh.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">-->
+<!--                   </div>-->
+<!--               </div>-->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about" id="about">
+        <h3>About</h3>
+        <hr>
+        <img src="image/photo-1515965885361-f1e0095517ea.jpg" height="100%" width="100%">
+    </div>
+
+    <div class="contact" id="contact">
+        <h3>Contact</h3>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card-body">
+                    <form name="form" onsubmit="sendMessage()">
+                        <div class="form-group">
+                            <input type="text" class="form-control name" id="name" placeholder="Name : " required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control email" id="email" placeholder="Email : " required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control message" placeholder="Message : "  id="message" cols="82" rows="6" required></textarea>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="submit" class="sendBtn btn btn-success" id="send" value="Send">
+                        </div>
+                    </form>
+                </div>
+                <br>
+            </div>
+            <div class="col-sm-6 address">
+                <div class="col-sm-12">
+                       <ul>
+                           <li><i class="fa fa-map-o"></i></li>
+                           <li><strong>Address / Street</strong></li>
+                           <li><p>Kamal Binayak - 09,Bhaktapur,Nepal</p></li>
+                       </ul>
+                </div>
+                <div class="col-sm-12">
+                    <ul>
+                        <li><i class="fa fa-mobile"></i></li>
+                        <li><strong>Phone</strong></li>
+                        <li><p>+(977)xxxxxxxxxx</p></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <ul>
+                        <li><i class="fa fa-envelope-o"></i></li>
+                        <li><strong>Email</strong></li>
+                        <li><p>sanjayakoju42@gmail.com</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <br><hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3533.365701221461!2d85.43815082372824!3d27.67508992905692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1622380170210!5m2!1sen!2snp"
+                        width="100%" height="440px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+<!--        <a href="" class="mail">Sanjayakoju42@gmail.com</a>-->
+<!--        <div class="fa-icon">-->
+<!--            <a href="#" class="fa fa-facebook" target="_blank"></a>-->
+<!--            <a href="https://twitter.com/sanjayakoju" class="fa fa-twitter" target="_blank"></a>-->
+<!--            <a href="#" class="fa fa-google" target="_blank"></a>-->
+<!--            <a href="https://www.instagram.com/sanjaya_koju/" target="_blank" class="fa fa-instagram"></a>-->
+<!--            <a href="https://www.linkedin.com/in/sanjaya-koju-3b6a351b9/" class="fa fa-linkedin" target="_blank"></a>-->
+<!--        </div>-->
+    </div>
+</div>
+<div class="sideContact">
+        <a href="#" class="fa fa-facebook" title="Facebook" target="_blank"></a>
+        <a href="https://twitter.com/sanjayakoju" title="Twitter" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue" title="Gmail" class="fa fa-google" target="_blank"></a>
+        <a href="https://www.instagram.com/sanjaya_koju/" target="_blank" title="Instagram" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/sanjaya-koju-3b6a351b9/" title="Linkedin" class="fa fa-linkedin" target="_blank"></a>
+</div>
+<button class="myBtn" onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-angle-up fa-sm"></i>
+</button>
+<div class="footer">
+    <p style="font-family: 'Times New Roman'">&#169; Copy right 2021 Sanjaya Koju</p>
+</div>
+
+<script>
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        var y = document.getElementById("myModal");
+        if (y.className === "modal") {
+            y.className += " responsive";
+            console.log('Class ',y.className)
+        } else {
+            y.className = "modal";
+            console.log('Class ',y.className)
+        }
+        var z = document.getElementById("myModalContent");
+        if (z.className === "modal-content") {
+            z.className += " responsive";
+        } else {
+            z.className = "modal-content";
+        }
+        var a = document.getElementById("prev");
+        if (a.className === "prev") {
+            a.className += " responsive";
+        } else {
+            a.className = "modal-content";
+        }
+    }
+
+    // Image Pop Up Script
+    function openModal() {
+        document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+
+
+
+    function sendMessage() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+        if (name == "") {
+            window.alert("Name can't be empty!")
+        } else if (email == "") {
+            window.alert("Name can't be empty!")
+        } else if (message == "") {
+            window.alert("Name can't be empty!")
+        } else {
+            window.alert("Message send successfully")
+            document.getElementById('name').value = "";
+            document.getElementById('email').value = "";
+            document.getElementById('message').value = "";
+        }
+    }
+</script>
+</body>
+</html>
