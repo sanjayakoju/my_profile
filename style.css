@@ -94,7 +94,9 @@ h3 {
     text-align: center;
     size: 20pt;
     color: white;
-    /*position: absolute;*/
+    font-family: "Times New Roman";
+    display: flex;
+    justify-content: center;
 }
 
 .contact .mail {
